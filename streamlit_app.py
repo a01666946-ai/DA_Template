@@ -62,7 +62,10 @@ page_dict["Prediction"] = ml_pages
 page_dict["About us"] = about_pages
 
 
-
+st.caption(
+    "Aplicación recuperada y corregida | "
+    "Nombre: Gabriel Castro | Matrícula: A01666946"
+)
 
 pg = st.navigation(page_dict)
 pg.run()
